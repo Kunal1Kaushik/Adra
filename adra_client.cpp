@@ -21,7 +21,8 @@ int main(int argc, char **argv) {
   srv.request.args.clear();
   srv.request.args.push_back("1");
   if (i=3) {
-  srv.request.args.push_back("
+  srv.request.args.push_back("45")
+  }
   if (client.call(srv)) {
     int size = srv.response.rets.size();
     if (i=0) {
